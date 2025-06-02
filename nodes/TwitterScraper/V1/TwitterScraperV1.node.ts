@@ -12,7 +12,7 @@ import { NodeOperationError } from 'n8n-workflow';
 import { tweetFields, tweetOperations } from './TweetDescription';
 import { userFields, userOperations } from './UserDescription';
 
-import { Rettiwt, TweetFilter, TweetMediaArgs } from 'rettiwt-api';
+import { Rettiwt, TweetFilter, NewTweetMedia } from 'rettiwt-api';
 import { returnId } from './GenericFunctions';
 
 /**
@@ -119,7 +119,7 @@ export class TwitterScraperV1 implements INodeType {
 							inReplyToStatusIdValue = returnId(inReplyToStatusId);
 						}
 
-						let attachmentsValue: TweetMediaArgs[] | undefined;
+						let attachmentsValue: NewTweetMedia[] | undefined;
 
 						if (mediaId) {
 							attachmentsValue = [
