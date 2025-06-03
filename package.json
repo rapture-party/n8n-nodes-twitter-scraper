@@ -1,6 +1,6 @@
 {
-  "name": "n8n-nodes-twitter-scraper",
-  "version": "0.3.0",
+  "name": "@rapture-party/n8n-nodes-twitter-scraper",
+  "version": "0.4.0",
   "description": "Consume Twitter without their API",
   "keywords": [
     "n8n-community-node-package"
@@ -8,12 +8,12 @@
   "license": "MIT",
   "homepage": "https://github.com/AlejandroAkbal/n8n-nodes-twitter-scraper",
   "author": {
-    "name": "Alejandro Akbal",
-    "email": "alejandro@localhost"
+    "name": "rapture-party",
+    "email": "mail@rapture.party"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlejandroAkbal/n8n-nodes-twitter-scraper.git"
+    "url": "https://github.com/rapture-party/n8n-nodes-twitter-scraper.git"
   },
   "engines": {
     "node": ">=18.10",
